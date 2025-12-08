@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Call - Art Wolfe Photography</title>
+    <link rel="stylesheet" href="ClickGO_styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">CLICKG</span>
+                <img src="ClickGO_images_logo.png" alt="O" class="logo-o">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="ClickGO_Home.html">Home</a></li>
+                <li><a href="ClickGO_Portfolio.html">Portfolio</a></li>
+                <li><a href="ClickGO_aboutMePage.html">About Me</a></li>
+                <li><a href="ClickGO_Services.html">Services</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-form-wrapper" id="contactFormWrapper">
+                <div class="contact-form-content">
+                    <h2 class="contact-form-title">BOOK A CALL</h2>
+                    <p class="contact-form-subtitle">Fill out the form below and I'll get in touch to schedule your session or consultation</p>
+                    
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="NAME :" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="EMAIL :" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="MESSAGE :" required></textarea>
+                        </div>
+                        
+                        <div class="form-footer">
+                            <button type="submit" class="btn-submit">Submit</button>
+                            <p class="response-time">I usually reply within 24 hours</p>
+                        </div>
+                    </form>
+                </div>
+                
+                <!-- Success Message (Hidden by default) -->
+                <div class="success-message" id="successMessage" style="display: none;">
+                    <h2 class="success-title">MESSAGE SENT SUCCESSFULLY !</h2>
+                    <p class="success-text">Thanks for reaching out! I'll contact you soon to schedule our session.</p>
+                    <a href="ClickGO_Home.html" class="btn-back-home">Go back to Homepage</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <p class="faq-label">FAQ'S</p>
+            <h2 class="section-title">FREQUENTLY ASKED QUESTIONS</h2>
+            
+            <div class="faq-item">
+                <button class="faq-question">
+                    WHAT TYPE OF PHOTOGRAPHY DO YOU SPECIALIZE IN?
+                    <span class="faq-icon">›</span>
+                </button>
+                <div class="faq-answer">
+                    <p>I specialize in wildlife, landscape, and cultural photography with a focus on conservation storytelling and capturing the essence of our planet's wild places.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    WHAT IS YOUR EDITING PROCESS LIKE?
+                    <span class="faq-icon">›</span>
+                </button>
+                <div class="faq-answer">
+                    <p>My editing maintains the authenticity of each scene while enhancing visual impact through professional color correction and composition optimization.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    HOW CAN I BOOK A PHOTOGRAPHY WORKSHOP WITH YOU?
+                    <span class="faq-icon">›</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Workshops can be booked through this contact form or by reaching out to our studio directly. We offer expeditions worldwide throughout the year.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    ARE DIGITAL FILES INCLUDED IN YOUR PHOTOGRAPHY PACKAGES?
+                    <span class="faq-icon">›</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Yes, high-resolution digital files are available for licensing. Please contact us for specific usage rights and pricing details.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    WHAT EQUIPMENT DO YOU USE FOR YOUR PHOTOGRAPHY?
+                    <span class="faq-icon">›</span>
+                </button>
+                <div class="faq-answer">
+                    <p>I use professional Canon systems with specialized lenses for wildlife and landscape work, but the key is understanding light and animal behavior.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    DO YOU OFFER PRINTS OF YOUR PHOTOGRAPHS?
+                    <span class="faq-icon">›</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Yes, limited edition museum-quality prints are available with certificates of authenticity. Contact us for current availability.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    HOW LONG DOES IT TAKE TO RECEIVE THE EDITED PHOTOS AFTER A SESSION?
+                    <span class="faq-icon">›</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Processing times vary by project scope. Typically, edited images are delivered within 4-6 weeks for standard projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="testimonials-header">
+                <p class="testimonials-label">TESTIMONIALS</p>
+                <h2 class="section-title">WHAT PEOPLE SAY</h2>
+                <p class="testimonial-count">150+</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div>
+                            <h4>David Attenborough</h4>
+                            <p class="testimonial-role">Naturalist</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/733/733547.png" alt="Facebook"></a>
+                            <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/733/733579.png" alt="Twitter"></a>
+                            <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/174/174857.png" alt="LinkedIn"></a>
+                        </div>
+                    </div>
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">Art Wolfe's photography captures the soul of the natural world in ways that inspire conservation and wonder.</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div>
+                            <h4>Jane Goodall</h4>
+                            <p class="testimonial-role">Conservationist</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/733/733547.png" alt="Facebook"></a>
+                            <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/733/733579.png" alt="Twitter"></a>
+                            <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/174/174857.png" alt="LinkedIn"></a>
+                        </div>
+                    </div>
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">Through Art's lens, the world sees what needs protecting. His work speaks for those without voices.</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div>
+                            <h4>National Geographic</h4>
+                            <p class="testimonial-role">Editorial Team</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/733/733547.png" alt="Facebook"></a>
+                            <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/733/733579.png" alt="Twitter"></a>
+                            <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/174/174857.png" alt="LinkedIn"></a>
+                        </div>
+                    </div>
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">One of the most influential nature photographers of our time, inspiring millions through his art.</p>
+                </div>
+            </div>
+            
+            <div class="view-all-container">
+                <a href="ClickGO_testimonials.html" class="btn-view-all">View All Testimonials →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>HOME</h4>
+                    <ul>
+                        <li><a href="ClickGO_aboutMePage.html">ABOUT ME</a></li>
+                        <li><a href="ClickGO_Portfolio.html">MY WORKS</a></li>
+                        <li><a href="ClickGO_testimonials.html">TESTIMONIALS</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>PORTFOLIO</h4>
+                    <ul>
+                        <li><a href="ClickGO_Portfolio.html">WILDLIFE</a></li>
+                        <li><a href="ClickGO_Portfolio.html">LANDSCAPES</a></li>
+                        <li><a href="ClickGO_Portfolio.html">CULTURAL</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>SERVICES</h4>
+                    <ul>
+                        <li><a href="ClickGO_Services.html">WORKSHOPS</a></li>
+                        <li><a href="ClickGO_Services.html">PRINTS</a></li>
+                        <li><a href="ClickGO_Services.html">LICENSING</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-links">
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/733/733547.png" alt="Facebook"></a>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/733/733579.png" alt="Twitter"></a>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/174/174857.png" alt="LinkedIn"></a>
+                </div>
+                <p class="copyright">© Shutterworks for ClickGo — Featuring the photography of Art Wolfe. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="ClickGO_script.js"></script>
+</body>
+</html>
