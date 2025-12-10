@@ -340,6 +340,12 @@ if (window.innerWidth <= 768) {
     initTestimonialSlider();
 }
 
+// submitted form
+function submitted(){
+    alert('Form Submitted')
+}
+document.querySelector('.btn-submit').addEventListener('click', submitted)
+
 // Portfolio Carousel System
 function initializeCarousels() {
     const carousels = document.querySelectorAll('.carousel-container');
